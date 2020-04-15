@@ -3,7 +3,37 @@
 
 ## Solution
 ### fdelpini
+#### First Solution
+- 버블 정렬을 기본으로 하고 있음. 알고리즘 복잡도로 인해 Time Limit이 발생하는 상황
 ```kotlin
+// Complete the minimumBribes function below.
+fun minimumBribes(q: Array<Int>): Unit {
+    var count : Int = 0
+    val persons = mutableMapOf<Int, Int>()
+    for(i in 0 until q.size) {
+        for(j in 0 until q.size - i - 1) {
+            if(q[j] > q[j + 1]) {
+                count++
+                if(persons.containsKey(q[j])) {
+                    var swapCount = persons.get(q[j])!! + 1
+                    if(swapCount > 2) {
+                        println("Too chaotic")
+                        return
+                    }
+                    persons.put(q[j], swapCount)
+                }
+                else {
+                    persons.put(q[j], 1)
+                }
+                // swap
+                var temp = q[j]
+                q[j] = q[j + 1]
+                q[j + 1] = temp
+            }
+        }
+    }
+    println(count)
+}
 ```
 
 ### skygrapher
