@@ -4,6 +4,10 @@
 * https://www.hackerrank.com
 
 ## Practice
+### TODO
+* https://www.hackerrank.com/challenges/kangaroo/problem
+* https://www.hackerrank.com/challenges/extra-long-factorials/problem
+
 ### 2020.04.14
 * [New Year Chaos](practice/new-year-chaos.md)
 * [Hash Tables: Ransom Note](practice/ransom-note.md)
