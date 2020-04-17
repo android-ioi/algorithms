@@ -1,12 +1,12 @@
 # HackerRank
-[Interview Preparation Kit](https://www.hackerrank.com/interview/interview-preparation-kit)에서 문제 풀이
+[Interview Preparation Kit](https://www.hackerrank.com/interview/interview-preparation-kit) 및 [Problem Solving](https://www.hackerrank.com/domains/algorithms)에서 문제 풀이
 
 * https://www.hackerrank.com
 
 ## Practice
 ### TODO
-* https://www.hackerrank.com/challenges/kangaroo/problem
-* https://www.hackerrank.com/challenges/extra-long-factorials/problem
+* [Kangaroo](practice/kangaroo.md)
+* [Extra Long Factorials](practice/extra-long-factorials.md)
 
 ### 2020.04.14
 * [New Year Chaos](practice/new-year-chaos.md)
