@@ -4,7 +4,11 @@
 * https://www.hackerrank.com
 
 ## Practice
-### TODO
+### 2020.05.07
+* [Save the Prisoner!](practice/save-the-prisoner.md)
+* [Day of the Programmer](practice/day-of-the-programmer.md)
+
+### 2020.04.28
 * [Kangaroo](practice/kangaroo.md)
 * [Extra Long Factorials](practice/extra-long-factorials.md)
 
